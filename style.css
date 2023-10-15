@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   background-color: rgba(211, 211, 211, 0.637);
+   font-family: Arial, Helvetica, sans-serif;
+   margin: auto;
+   
+
+}
+
+.bg{
+    background-image: url(imagens/planodefundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+li > a{
+    text-align: left;
+    background-color: #92929270;
+    text-decoration: none;
+   display: block;
+   margin: 10px;
+   color: white;
+   padding: 20px;
+    
+}
+li:hover{
+    background-color: black;
+}
+
+menu{
+    display: none;
+}
+
+main > i{
+    cursor: pointer;
+    margin: 30px;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    text-align: center;
+}
+
+div#banerprincipal{
+    height: 275px;
+    width: 1320px;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+   
+
+}
+
+main> div {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    height: 120px;
+    width: 195px;
+    padding-bottom: 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+
+}
+
+div:hover {
+    background-color: chartreuse;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+aside#banerpequeno > div{
+    height: 120px;
+    width: 195px;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+aside > div{
+    display: inline-block;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid black;
+    text-align: left;
+    height: 100px;
+    width: 350px;
+    padding-bottom: 10px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+}
+
+article> img{
+    margin: auto;
+    display: flex;
+    width: 10%;
+}
+article{
+    background-color: black;
+    padding-top: 0px;
+    display: flex;
+    width: 100%;
+}
+
+p{
+    color: black;
+}
+footer{
+    
+    background-color: rgb(238, 237, 237);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+
+}
+footer .btn {
+    font-size: 14px;
+    background: #ddd;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    color: #333 !important;
+    background: none !important;
+}
+
+main{
+    
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+    color: rgb(2, 2, 163);
+}
+
+h3{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+nav{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    outline: auto;
+    outline-style: auto;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-color: black;
+    
+
+}
+
