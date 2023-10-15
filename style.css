@@ -8,16 +8,56 @@
 body {
    background-color: rgba(211, 211, 211, 0.637);
    font-family: Arial, Helvetica, sans-serif;
-   margin: auto;
-   
+      
 
 }
 
+#barradepesquisa{
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    background-position: right;
+    margin-left: 500px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px 1px;
+    border: 1px solid black;
+    position: absolute;
+    
+    
+}
+
+
+#container{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%;
+}
+
+#container > i {
+    margin-left: 200px;
+    margin-top: 70px;
+    position: absolute;
+}
+.logoprincipal{
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 20px;
+    position: absolute;
+          
+}
+
 .bg{
-    background-image: url(imagens/planodefundo.jpeg);
+    background-image: url(imagens/planodefundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 0px;
+    background-attachment: fixed;
 }
 
 li > a{
@@ -36,12 +76,20 @@ li:hover{
 
 menu{
     display: none;
+    
 }
 
 main > i{
     cursor: pointer;
     margin: 30px;
 }
+
+main{
+margin: left 100px;
+margin-bottom: 100px;
+
+} 
+
 
 img{
     width: 100%;
@@ -57,26 +105,23 @@ header{
 }
 
 div#banerprincipal{
-    height: 275px;
-    width: 1320px;
+    height: auto;
     padding: 10px;
-    margin: 5px 5px 5px 5px;
+    margin-left: 40px;
+    display: flex;
+    width: 90%;
+    
 }
 
-
-   
-
-}
 
 main> div {
     display: inline-block;
     background-color: white;
     border: 1px solid black;
     text-align: center;
-    height: 120px;
-    width: 195px;
+    width: 60%;
     padding-bottom: 10px;
-    margin: 5px 5px 5px 5px;
+    margin: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
 
@@ -87,15 +132,29 @@ div:hover {
 }
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(63, 63, 63);
+    
 }
 
 aside#banerpequeno > div{
+    display: flexbox;
     height: 120px;
     width: 195px;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
+    margin: 1px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    padding: 3px;
+    
+    
+
+    
+    
+    
 }
 
 aside > div{
@@ -106,7 +165,8 @@ aside > div{
     height: 100px;
     width: 350px;
     padding-bottom: 10px;
-    margin: 30px 30px 30px 30px;
+    margin-left: 30px;
+    margin-bottom: 40px;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
@@ -146,9 +206,6 @@ footer .btn {
     background: none !important;
 }
 
-main{
-    
-}
 
 h1{
     background-color: white;
